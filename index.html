@@ -9,6 +9,7 @@
 </head>
 <body>
     <main>
+        <h1>Jogo Da Velha</h1>
         <div class="linha">
             <div id="casa01" class="casa" onclick="jogada(this);"></div>
             <div id="casa02" class="casa" onclick="jogada(this);"></div>
@@ -24,7 +25,13 @@
             <div id="casa08" class="casa" onclick="jogada(this);"></div>
             <div id="casa09" class="casa" onclick="jogada(this);"></div>
         </div>
+        <br>
         <div><button onclick="reiniciar()">Reiniciar Jogo</button></div>
+        <br>
+        <div><button onclick="reiniciar_placar()">Reiniciar Placar</button></div>
+        <br>
+        <div id="pX" class="placar">Pontos X: 0</div>
+        <div id="pO" class="placar">Pontos O: 0</div>
     </main>
     
     
